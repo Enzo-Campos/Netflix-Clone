@@ -73,6 +73,7 @@ export default {
                 case 'tv':
                     info = await basicFetch(`/tv/${movieId}?language=pt-BR&api_key=${API_KEY}`)
                 break
+                default:
             }
         }
         
